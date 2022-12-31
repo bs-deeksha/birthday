@@ -11,10 +11,10 @@ with c2:
     for i in range(1,n):
         if i%2==0:
             ph2.image('balloon1.png',width=500)
-            ph1.markdown("<h3 style='text-align: center; color: black;'>"+str(i)+"</h3>", unsafe_allow_html=True)
+            ph1.markdown("<h3 style='text-align: center;'>"+str(i)+"</h3>", unsafe_allow_html=True)
         else:
             ph2.image('balloon2.png',width=500)
-            ph1.markdown("<h3 style='text-align: center; color: black;'>"+str(i)+"</h3>", unsafe_allow_html=True)
+            ph1.markdown("<h3 style='text-align: center;'>"+str(i)+"</h3>", unsafe_allow_html=True)
         # time.sleep(0.1)
     st.balloons()
     ph2.image('birthday.jfif',width=1000)
