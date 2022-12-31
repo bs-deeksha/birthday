@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 st.set_page_config(layout="wide")
-st.markdown("<h2 style='text-align: center; color: black;'>Here's to 26 wonderful years  🥳 and 74 more 😜</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Here's to 26 wonderful years  🥳 and 74 more 😜</h2>", unsafe_allow_html=True)
 
 c1,c2,c3=st.columns([0.5,2,1])
 with c2:
